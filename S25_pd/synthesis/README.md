@@ -15,3 +15,7 @@ run synthesis
 ```sh
 dc_shell-xg-t -64bit -f compile_dc.tcl | tee -i LOGs/<your name>.log
 ```
+if command doesn't work, use this command instead
+```
+dc_shell-xg-t -64bit -f compile_dc.tcl | tee -i LOGs/${USER}.log
+```
